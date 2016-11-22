@@ -1,3 +1,10 @@
+mov 0x003, 0
+mov 0x004, 0
+inc A
+inc B
+inc C
+inc D
 label 1
 inc 0x003
-0x003 > 10 ? jump 1:0
+inc 0x004
+(0x003 < 5) ? JUMP 1:0
